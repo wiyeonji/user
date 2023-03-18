@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- namespace는 연동시키고자 하는 mapper 경로, 인터페이스명과 명시 -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.hotel.mapping.MemberMapper">
+  <!-- id는 MemberMapper.xml 회원가입 쿼리문 호출하는 메서드 이름임 -->
+  	<insert id="memberJoin">
+  		insert into member values(#{id}, #{password}, #{name}, #{email})
+  	</insert>
+  
+  
+  </mapper>

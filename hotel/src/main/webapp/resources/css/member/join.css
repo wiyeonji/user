@@ -1,0 +1,64 @@
+body {
+	background-color: #EAFDFC;
+}
+
+#joinForm {
+	font-size: 27px;
+	margin: 20px;
+}
+
+.back {
+	margin: auto;
+	width: 800px;
+	background-color: #EEEFF1;
+	border-radius: 5px;
+	text-align: center;
+	padding: 30px;
+}
+
+input {
+	margin: 2px;
+	width: 350px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	float: center;
+}
+
+#btn {
+	width: 100px;
+	padding: 8px;
+	background-color: #82AAE3;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+}
+
+#btn1 {
+	width: 100px;
+	padding: 8px;
+	background-color: #82AAE3;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+}
+
+#join {
+	margin: 30px;
+	width: 350px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #82AAE3;
+	float: center;
+}
+/* 중복아이디 존재하지 않는경우 */
+.id_input_re_1 {
+	color: green;
+	display: none;
+}
+/* 중복아이디 존재하는 경우 */
+.id_input_re_2 {
+	color: red;
+	display: none;
+}
